@@ -34,6 +34,7 @@ typedef vector< vll > vvll;
 #defile all(c) (c).begin(),(c).end()
 #define present(c,x) ((c).find(x) != (c).end())
 #define vpresent(c,x) (find(all(c),x) != (c).end())
+#define vsum(c) accumulate(all(c), 0);
 
 #define srt(v)	sort (all (v))
 #define fill (x, y)	memset(x, y, sizeof(x))
