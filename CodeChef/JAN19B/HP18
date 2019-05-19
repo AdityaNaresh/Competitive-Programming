@@ -1,0 +1,24 @@
+t=int(input())
+for xx in range(t):
+    n,b,a=[int(c) for c in input().split()]
+    a1=[int(c) for c in input().split()]
+    ca=0
+    cb=0
+    for c in a1:
+        if c%a==0:
+            ca+=1
+        if c%b==0:
+            cb+=1
+    if ca>cb:
+        print("ALICE")
+    elif cb>ca:
+        print("BOB")
+    else:
+        g=0
+        for c in a1:
+            if c%a==0 and c%b==0:
+                print("BOB")
+                g=1
+                break
+        if g==0:
+            print("ALICE")
