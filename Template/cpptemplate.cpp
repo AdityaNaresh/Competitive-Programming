@@ -31,7 +31,7 @@ typedef vector< vll > vvll;
 
 #define dig(i)	(s[i] - '0')
 #define len(a) int((a).size())
-#defile all(c) (c).begin(),(c).end()
+#define all(c) (c).begin(),(c).end()
 #define present(c,x) ((c).find(x) != (c).end())
 #define vpresent(c,x) (find(all(c),x) != (c).end())
 #define vsum(c) accumulate(all(c), 0);
