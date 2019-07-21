@@ -46,7 +46,7 @@ typedef vector< vll > vvll;
 #define trans(c,i) for(typeof((c).begin() i = (c).begin(); i != (c).end(); i++)
 #define loop(i, a, b)	for (int i(a); i < (b); i ++)
 #define rloop(i, a, b)	for (int i(a); i > (b); i --)
-#define test() int t; scanf("%d",&t); while(t--)
+#define test() int t; cin>>t; while(t--)
 
 #define FAST_IO ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0)
 
